@@ -6,8 +6,8 @@ import './Academics.css';
 const Academics = () => {
   const academics = [
     {
-      name: "Shree Roopram Institute of Education",
-      location: "Gagalheri, Saharanpur, India",
+      name: "Lovely Professional University",
+      location: "Phagwara, Punjab, India",
       extra_details: [
         {
           heading: "Masters",
@@ -19,6 +19,10 @@ const Academics = () => {
       explanation: "I am currently pursuing a Master of Computer Application from Lovely Professional University, with Data Science as my open minor. At the same time, I have worked on several projects, applying the skills I have learned through my university courses."
     },
     {
+      name: "Shree Roopram Institute Of Education",
+      location: "Gagalheri, Saharanpur, India",
+      extra_details: [
+        {
           heading: "Bachelor",
           detail: "B.Sc-Mathematics"
         }
@@ -111,4 +115,5 @@ const Academics = () => {
 };
 
 export default Academics;
+
 
