@@ -10,7 +10,7 @@ const Experiences = () => {
       role: "Data Analyst",
       location: "Remote",
       technologies: "Tableau, MS Excel, Power Bi",
-      projects: "animal hospital data analysis, sales data analysis",
+      projects: "animal hospital data analysis, data analysis",
       description: "I completed an internship at a government animal hospital, where i worked on data filtration and trend analysis to identity which animals where more prone to diseases."
     }
   ];
@@ -75,3 +75,4 @@ const Experiences = () => {
 }
 
 export default Experiences;
+
