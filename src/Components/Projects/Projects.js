@@ -17,15 +17,6 @@ const Projects = ({pro}) => {
       github: "https://github.com/25sudharsan27/SIH",
       live: "https://frontend-sih-swart.vercel.app"
     },
-    {
-      name: "Pragmatic Project Consilium",
-      date_uploaded: "Nov 2024",
-      technologies: "ReactJS, ThreeJS, Javascript, AOS",
-      description: "Built a website for the company with sections like services, completed works, and an interactive roadmap.",
-      image:   'https://res.cloudinary.com/dbbmdq3uy/image/upload/v1737005751/pj6k7d8bpluz3s1gjhnx.webp',
-      github: "https://github.com/25sudharsan27/pragmatic-project",
-      live: "https://pragmatic-project.vercel.app"
-    },
     
   ] : pro;
   // Initialize AOS
@@ -104,3 +95,4 @@ const Projects = ({pro}) => {
 };
 
 export default Projects;
+
