@@ -6,24 +6,26 @@ import './Academics.css';
 const Academics = () => {
   const academics = [
     {
-      name: "Lovely Professional University",
-      location: "Phagwara, Punjab, India",
+      name: "Shree Roopram Institute of Education",
+      location: "Gagalheri, Saharanpur, India",
       extra_details: [
         {
-          heading: "Open Minor",
-          detail: "Data Science"
-        },
-        {
-          heading: "Elective Minor",
-          detail: "DevOps"
+          heading: "Masters",
+          detail: "MCA"
         }
       ],
-      marks: {
-        heading: "Grade",
-        details: "8.49 CGPA"
-      },
-      duration: "Sept 2022 - Present",
-      explanation: "I am currently pursuing a Bachelor of Technology in Computer Science and Engineering from Lovely Professional University, with Data Science as my open minor and DevOps as my elective minor. In 2024, I successfully cleared the technical interview for Summer Placement Classes at the college. During the training, I was mentored by Harsh Deep Singh, an SDE 1 at Google, who taught us competitive programming concepts and encouraged us to practice on various coding platforms. At the same time, I have worked on several projects, applying the skills I have learned through my university courses."
+      
+      duration: "July - Present",
+      explanation: "I am currently pursuing a Master of Computer Application from Lovely Professional University, with Data Science as my open minor. At the same time, I have worked on several projects, applying the skills I have learned through my university courses."
+    },
+    {
+          heading: "Bachelor",
+          detail: "B.Sc-Mathematics"
+        }
+      ],
+      
+      duration: "2022 - 2025",
+      explanation: "I did my graduation from SRI majorly in Mathematics. From this I got deep insights in the different fields which is helping me in my current time."
     },
     {
       name: "Hari International Academy",
@@ -36,7 +38,7 @@ const Academics = () => {
       ],
       marks: {
         heading: "Percentage",
-        details: "94%"
+        details: "89%"
       },
       duration: "2021 - 2022",
       explanation: "I have completed my schooling at Hari International Academy, where I chose the PCM group for my 10+2 education."
@@ -109,3 +111,4 @@ const Academics = () => {
 };
 
 export default Academics;
+
