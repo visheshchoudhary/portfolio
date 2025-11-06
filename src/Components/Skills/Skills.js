@@ -8,41 +8,28 @@ const Skill = () => {
     {
       heading: "Languages",
       tools: [
-        "C++",
-        "JAVA",
-        "C",
-        "Python",
-        "JavaScript",
-        "R"
+        "C++"
       ]
     },
     {
       heading: "Web Technologies",
       tools: [
         "HTML",
-        "CSS",
-        "React",
-        "Node.js",
-        "Express",
-        "Redux",
-        "RESTful APIs",
-        "Three.js"
+        "CSS"
       ]
     },
     {
       heading: "Data Science Technologies",
       tools: [
-        "R",
+      
         "MS EXCEL",
-        "TABLEAU",
+        
       ]
     },
     {
       heading: "DataBase Technologies",
       tools: [
-        "SQL",
-        "MongoDB",
-        "POSTGRESQL"
+        "SQL"
       ]
     }
   ];
@@ -99,3 +86,4 @@ const Skill = () => {
 };
 
 export default Skill;
+
