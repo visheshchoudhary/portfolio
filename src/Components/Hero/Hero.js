@@ -1,7 +1,7 @@
 import './Hero.css';
 import React, { useEffect } from 'react';
 
-import profilepic from '../../Images/vishesimg.jpg';
+import profilepic from '../../Images/pho.jpeg';
 import resume from '../../Images/resume.svg';
 import linkedin from '../../Images/linkedin.svg';
 import github from '../../Images/github.svg';
@@ -66,5 +66,6 @@ const Hero = () => {
 }
 
 export default Hero;
+
 
 
