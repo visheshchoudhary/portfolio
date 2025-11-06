@@ -2,7 +2,7 @@ import "./Footer.css";
 import linkedin from "../../Images/linkedin.svg";
 import github from "../../Images/github.svg";
 import leetcode from "../../Images/leetcode.svg";
-import profilepic from "../../Images/vishesimg.jpg";
+import profilepic from "../../Images/pho.jpeg";
 
 const Footer = () => {
     return (
@@ -35,15 +35,16 @@ const Footer = () => {
                 </div> */}
                 <div className="footer_photo">
                     <img src={profilepic} className="footer_photo_image" />
-                    <h1 className="footer_photo_text">Vishesh Choudhary</h1>
+                    <h1 className="footer_photo_text">Aryan Choudhary</h1>
                 </div>
             </div>
             <div className="line"></div>
             <div className="footer_bottom">
-                <h1 className="footer_bottom_text">© 2025 Vishesh Choudhary. All rights reserved.</h1>
+                <h1 className="footer_bottom_text">© 2025 Aryan Choudhary. All rights reserved.</h1>
             </div>
         </div>
     )
 }
+
 
 export default Footer;
