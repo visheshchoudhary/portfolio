@@ -16,22 +16,6 @@ const Blogs = ({blo}) => {
       image: "https://res.cloudinary.com/dbbmdq3uy/image/upload/v1737011057/l4m0nfhyypgtjjygs6nh.webp",
       link: "https://www.linkedin.com/posts/sudharsan-baskaran-182bb4255_niteshj-vinukanth-shanmukhdevarasetty-activity-7242803342760894464-ol0a?utm_source=share&utm_medium=member_desktop",
     },
-    {
-      name: "Summer PEP Completion",
-      date_uploaded: "Aug 2024",
-      description:
-        "🌟 Proud to share my latest achievement! 🌟 I’m thrilled to have successfully completed the PEP (Professional Enhancement Program) classes this summer, where I honed my skills in competitive coding and deepened my understanding of data structures and algorithms. 🚀 This intensive program challenged me to think critically and solve complex problems, while also allowing me to connect with a fantastic community of like-minded professionals.",
-      image: "https://res.cloudinary.com/dbbmdq3uy/image/upload/v1737011052/hlm33nlz365wu9s7vdgv.webp",
-      link: "https://www.linkedin.com/posts/sudharsan-baskaran-182bb4255_competitivecoding-datastructures-algorithms-activity-7234194214660497408-xEyY?utm_source=share&utm_medium=member_desktop",
-    },
-    {
-      name: "Leetcode 50 Days Completion",
-      date_uploaded: "Jun 2024",
-      description:
-        "Excited to share that I've successfully completed my first 100 questions on LeetCode and earned the 50 Days Badge for 2024! 🎉 Through this journey, I've honed my problem-solving skills and delved into various techniques",
-      image: "https://res.cloudinary.com/dbbmdq3uy/image/upload/v1737011051/nndojrrtsigus0udsiia.webp",
-      link: "https://www.linkedin.com/posts/sudharsan-baskaran-182bb4255_leetcode-coding-problemsolving-activity-7208414538923200512-x4vP?utm_source=share&utm_medium=member_desktop",
-    },
 
   ] : 
   blo;
@@ -109,3 +93,4 @@ const Blogs = ({blo}) => {
 };
 
 export default Blogs;
+
