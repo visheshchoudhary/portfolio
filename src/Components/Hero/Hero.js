@@ -52,12 +52,12 @@ const Hero = () => {
         <div {...getAosData("fade-up", 300)} className="hero_links">
           <div className="hero_link_btn">
             <img src={resume} className="hero_link_btn_img" alt="Resume" />
-            <a className="hero_link_btn_text" href="https://drive.google.com/file/d/1rBU1VFSnRQSC1F-BeTQwQGDZhjNddZeB/view">Resume</a>
+            <a className="hero_link_btn_text" href="https://drive.google.com/file/d/1rBU1VFSnRQSC1F-BeTQwQGDZhjNddZeB/vie">Resume</a>
           </div>
           <div className="hero_link_btn1">
-            <a href="https://www.linkedin.com/in/vishesh-choudhary-33496a250/"><img  src={linkedin} className="hero_link_btn_img1" alt="LinkedIn" /></a>
-            <a href="https://github.com/visheshchoudhary"><img src={github} className="hero_link_btn_img1" alt="GitHub" /></a>
-            <a href="https://leetcode.com/u/visheshchoudhary/" ><img src={leetcode} className="hero_link_btn_img1" alt="Leetcode" /></a>
+            <a href="https://www.linkedin.com/in/aryan-choudhary-68205a383"><img  src={linkedin} className="hero_link_btn_img1" alt="LinkedIn" /></a>
+            <a href="https://github.com/visheshchoudhar"><img src={github} className="hero_link_btn_img1" alt="GitHub" /></a>
+            <a href="https://leetcode.com/u/visheshchoudhar/" ><img src={leetcode} className="hero_link_btn_img1" alt="Leetcode" /></a>
           </div>
         </div>
       </div>
@@ -66,3 +66,4 @@ const Hero = () => {
 }
 
 export default Hero;
+
